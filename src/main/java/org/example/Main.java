@@ -21,8 +21,11 @@ System.out.println("User email: " + user1.getEmail());
 System.out.println("User name: " + user1.getName());
 System.out.println("User password: " + user1.getPassword());
 System.out.println("User phone number: " + user1.getPhoneNumber());
-
+        SalaryClass salary1 = new SalaryClass();
+        salary1.setSalary(50000);
+        System.out.println("Salary: " + salary1.getSalary());
+        
     }
-    SalaryClass salary1 = new SalaryClass();
-  
+
+
 }
