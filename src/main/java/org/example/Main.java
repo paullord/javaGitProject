@@ -23,4 +23,6 @@ System.out.println("User password: " + user1.getPassword());
 System.out.println("User phone number: " + user1.getPhoneNumber());
 
     }
+    SalaryClass salary1 = new SalaryClass();
+  
 }
